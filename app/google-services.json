@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1082343160676",
+    "firebase_url": "https://blp-times-default-rtdb.firebaseio.com",
+    "project_id": "blp-times",
+    "storage_bucket": "blp-times.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082343160676:android:afcf98fff5bf4b3d6b1871",
+        "android_client_info": {
+          "package_name": "www.blptimes.blpadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082343160676-2hei2stc1tjl0nodp9dbnijc0galnlhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbRz4xntAyQBdeRWK-Q1K6OMSS8eBOqmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082343160676-2hei2stc1tjl0nodp9dbnijc0galnlhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082343160676:android:36e3b27f20543f176b1871",
+        "android_client_info": {
+          "package_name": "www.blptimes.in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082343160676-u5fdqbh9j031dh7g17pdabeievb78sfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.blptimes.in",
+            "certificate_hash": "236328c8a72f65d15c46de6ac7d78eefab8d9e15"
+          }
+        },
+        {
+          "client_id": "1082343160676-2hei2stc1tjl0nodp9dbnijc0galnlhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbRz4xntAyQBdeRWK-Q1K6OMSS8eBOqmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082343160676-2hei2stc1tjl0nodp9dbnijc0galnlhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

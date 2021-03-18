@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:cardElevation="5dp"
+    android:layout_margin="5dp"
+    android:id="@+id/viewJobs">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="100dp"
+            android:id="@+id/jobsImageView"
+            android:src="@drawable/blp_logo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="3dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/jobsViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Job Title"
+                android:textSize="@dimen/headline"
+                android:textColor="@color/black"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/jobsViewPosts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5000 Posts"
+                android:textSize="@dimen/subheadline"
+                android:textColor="@color/black"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/editBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit"
+                    android:textAllCaps="false"/>
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:id="@+id/deleteBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Delete"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
