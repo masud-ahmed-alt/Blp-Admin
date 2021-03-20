@@ -35,7 +35,6 @@
                 android:text="Job Title"
                 android:textSize="@dimen/headline"
                 android:textColor="@color/black"
-                android:fontFamily="serif-monospace"
                 android:textStyle="bold"/>
 
             <TextView
@@ -45,7 +44,6 @@
                 android:text="5000 Posts"
                 android:textSize="@dimen/subheadline"
                 android:textColor="@color/black"
-                android:fontFamily="serif-monospace"
                 android:textStyle="bold"/>
 
             <LinearLayout
